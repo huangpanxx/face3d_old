@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\stasm\asmsearch.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\atface.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\err.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\ezfont.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\find.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\follow.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\forward.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\hypot.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imequalize.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imfile.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgiven.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\imshape.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imutil.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imwrite.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\initasm.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\initnet.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\jpegutil.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\landmarks.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\list.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\mat.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\matvec.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\mchol.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tasm\mrand.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\pngutil.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\prof.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\readasm.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\readconf.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\png\readpng.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\regex\regex.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\release.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\rgbimutil.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\rowley.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\rowleyhand.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\safe_alloc.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\search.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\shapefile.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\shapemodel.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\sparsemat.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\startshape.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\stasm.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\tab.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\tclHash.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\util.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\violajones.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\vjhand.cpp">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jpeg\wrbmp.c">
+      <Filter>stasm</Filter>
+    </ClCompile>
+    <ClCompile Include="Asm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\jpeg\cderror.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\cdjpeg.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\image\ezfont.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jconfig.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jerror.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jinclude.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jmorecfg.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jpeglib.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\regex\regex.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\regex\regex_config.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rowley\tclHash.h">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stasm\stasm.hpp">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stasm\asmsearch.hpp">
+      <Filter>stasm</Filter>
+    </ClInclude>
+    <ClInclude Include="Asm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stasm">
+      <UniqueIdentifier>{1aa11918-c3df-4f97-854b-0ac63b73a332}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>stasm</Filter>
+    </None>
+  </ItemGroup>
+</Project>

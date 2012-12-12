@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="asm.cpp" />
+    <ClCompile Include="..\stasm\asmsearch.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\atface.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\err.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\ezfont.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\find.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\follow.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\forward.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\hypot.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imequalize.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imfile.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imgiven.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\imshape.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imutil.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\imwrite.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\initasm.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\initnet.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\jpegutil.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\landmarks.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\list.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\mat.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\matvec.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mat\mchol.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tasm\mrand.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\pngutil.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\prof.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\readasm.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\readconf.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\png\readpng.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\regex\regex.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\release.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\image\rgbimutil.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\rowley.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\rowleyhand.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\safe_alloc.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\search.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\shapefile.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\shapemodel.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\sparsemat.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\startshape.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\tab.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rowley\tclHash.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\util.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\violajones.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stasm\vjhand.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jpeg\wrbmp.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asm.h" />
+    <ClInclude Include="..\stasm\asmsearch.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\cderror.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\cdjpeg.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\image\ezfont.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jconfig.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jerror.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jinclude.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jmorecfg.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jpeglib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\regex\regex.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\regex\regex_config.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stasm\stasm.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rowley\tclHash.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{cbabf980-aa46-4568-9a74-2093954d8733}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
